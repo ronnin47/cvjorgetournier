@@ -2,7 +2,7 @@ import  "./proyectos.css"
 
 export const Proyectos = () => {
   return (
-    <div className="container" style={{display:"grid", gap:"2em"}} id="proyectos">
+    <div className="container" style={{display:"grid", gap:"2em", marginBottom:"2em", marginTop:"1em"}} id="proyectos">
 
         <div className="row" style={{marginTop:"1em"}} > 
             <div className="col-md-6">

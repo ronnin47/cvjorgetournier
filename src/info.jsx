@@ -15,7 +15,7 @@ export const Info = () => {
   }
 
   return (
-    <div>
+    <div style={{margin:"1em"}}>
          <div className="container tecnologias" id="info">
          <div className="dataPersonal">
           <p>Nombre: Jorge Alcides Tournier</p>

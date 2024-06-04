@@ -21,7 +21,7 @@ export const Segmento=()=> {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" id="dataPersonal">
-        <Accordion.Header>Informacion Personal</Accordion.Header>
+        <Accordion.Header >Informacion Personal</Accordion.Header>
         <Accordion.Body className='fondo2'>
           <Info></Info>
         </Accordion.Body>
