@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,221,148,1) 100%);
+}
+.borde{
+  border: 3px solid red;
+}
+
+
+.foto{
+  max-width: 90%;
+  border-radius: 2em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); 
+}
+
+
+/* Estilos adicionales para tamaños de pantalla más pequeños */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Cambia la dirección de los divs a vertical */
+    align-items: flex-start; /* Alinea los elementos al principio */
+  }
+}
+
+.iconosFront {
+  display: flex;
+  justify-content: center; /* Centra los iconos horizontalmente */
+  gap:0.5em;
+ 
+}
+
+.icono {
+  width: 20%; /* Ajusta el ancho de cada icono al 20% del contenedor */
+  max-width: 50px; /* Limita el ancho máximo del icono */
+}
+
+@media (max-width: 768px) {
+  .icono {
+    width: 30%; /* Reduce el ancho de los iconos en dispositivos móviles */
+  }
+}
+
+@media (max-width: 480px) {
+  .icono {
+    width: 50%; /* Reduce aún más el ancho de los iconos en dispositivos móviles más pequeños */
+  }
+}
+
+.dataPersonal{
+  font-family: "Cambria";
+}
+.dataPersonal>p:hover{
+  color: blue;
+}
+
+@media (max-width: 450px) {
+  #foto{
+   max-height: 200px;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-align: left;
+}
+.fondo{
+  background: rgb(147,142,150);
+background: linear-gradient(90deg, rgba(147,142,150,1) 0%, rgba(29,253,94,0.9822303921568627) 33%, rgba(252,176,69,1) 100%);
+}
+
+.fondo2{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,221,148,1) 100%);
+}
