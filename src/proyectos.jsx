@@ -46,7 +46,7 @@ export const Proyectos = () => {
             </div>
            
             <div className="col-md-6">
-              <p style={{padding:"1em"}}>Descripcion: Trata de una aplicacion front React para administrar personajes de un juego de rol, esta guarda la infomacion el storage del dispositivo.</p>
+              <p style={{padding:"1em"}}>Descripcion:Trata de una aplicacion web con login, autorizacion y control de usuarios. La pagina es propia para un juego que permite crear personajes y todas sus modificaciones en tiempo real con socket.io. Su base de datos es mysql.</p>
               <div className="row">
                   <div style={{width:"4em"}}>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
@@ -94,7 +94,7 @@ export const Proyectos = () => {
             <img src="/assets/zepiro3.png" alt="imagen de zepiro.netlify.app" style={{maxWidth: "90%", border:"3px solid red"}}/>
             </div>
             <div className="col-md-6">
-              <p style={{padding:"1em"}}>Descripcion: Trata de una aplicacion web con login, autorizacion y control de usuarios. La pagina es propia para un juego que permite crear personajes y todas sus modificaciones en tiempo real con socket.io. Su base de datos es mysql.</p>
+              <p style={{padding:"1em"}}>Descripcion: Trata de una aplicacion front React para mostrar contenido de un juego de rol.Combinando botones y mostrando informacion de los posibles personajes y contextos.</p>
               <div className="row">
                   <div style={{width:"4em"}}>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
