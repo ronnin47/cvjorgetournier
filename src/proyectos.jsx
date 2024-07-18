@@ -31,7 +31,7 @@ export const Proyectos = () => {
                   </div>
               </div>
               <div style={{margin:"1em"}}>
-              <a href="http://zepiro.netlify.app" target="_blank" >zepiro.netlify.app</a>
+              <a href="http://znk.onrender.com" target="_blank" >znk.onrender.com</a>
               </div>  
               <div style={{margin:"1em"}}>
                 <a href="https://github.com/ronnin47/apprender.git" target="_blank">ir a proyecto en github</a>
