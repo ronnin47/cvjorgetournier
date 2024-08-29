@@ -11,7 +11,7 @@ export const Nava=()=> {
   return (
     <Navbar expand="lg"  className="navbar-dark bg-dark mb-3">
       <Container fluid>
-        <Navbar.Brand href="#home">Jorge A. Tournier Developer</Navbar.Brand>
+        <Navbar.Brand href="#home">Jorge A. Tournier - Full Stack Developer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

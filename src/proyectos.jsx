@@ -6,10 +6,10 @@ export const Proyectos = () => {
 
         <div className="row" style={{marginTop:"1em"}} > 
             <div className="col-md-6">
-            <img src="/assets/zepiro1.png" alt="imagen de zepiro.netlify.app" style={{maxWidth: "90%", border:"3px solid red"}}/>
+            <img src="/assets/zepiro1.png" alt="imagen de zepiro.netlify.app" style={{maxWidth: "90%", border:"3px solid red", borderRadius:"1em"}}/>
             </div>
             <div className="col-md-6">
-              <p style={{padding:"1em"}}>Descripcion: Trata de una aplicacion front React para administrar personajes de un juego de rol, esta guarda la infomacion el storage del dispositivo.</p>
+              <p style={{padding:"1em"}}>Descripcion: Trata de una aplicacion front React para administrar personajes de un juego de rol.Bbdd PostgreSQL y uso de indexedDB.Desplegada en Render.com</p>
               <div className="row">
                   <div style={{width:"4em"}}>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
@@ -29,12 +29,21 @@ export const Proyectos = () => {
                   <div style={{width:"4em"}}>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" />
                   </div>
+                  <div style={{width:"4em"}}>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" />
+                  </div>
+                  <div style={{width:"4em"}}>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original-wordmark.svg" />
+                  </div>      
+                  <div style={{width:"4em",marginTop:"3px"}}> 
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
+                  </div>  
               </div>
               <div style={{margin:"1em"}}>
-              <a href="http://znk.onrender.com" target="_blank" >znk.onrender.com</a>
+              <a href="http://zepironokioku.onrender.com" target="_blank" >zepironokioku.onrender.com</a>
               </div>  
               <div style={{margin:"1em"}}>
-                <a href="https://github.com/ronnin47/apprender.git" target="_blank">ir a proyecto en github</a>
+                <a href="https://github.com/ronnin47/newAppZnk.git" target="_blank">ir a proyecto en github</a>
               </div>     
             </div>
         </div>
@@ -42,7 +51,7 @@ export const Proyectos = () => {
 
         <div className="row">
             <div className="col-md-6">
-            <img src="/assets/zepiro2.png" alt="imagen de proyecto znk" style={{maxWidth: "90%", border:"3px solid red"}}/>
+            <img src="/assets/zepiro2.png" alt="imagen de proyecto znk" style={{maxWidth: "90%", border:"3px solid red", borderRadius:"1em"}}/>
             </div>
            
             <div className="col-md-6">
@@ -91,7 +100,7 @@ export const Proyectos = () => {
 
         <div className="row"> 
             <div className="col-md-6">
-            <img src="/assets/zepiro3.png" alt="imagen de zepiro.netlify.app" style={{maxWidth: "90%", border:"3px solid red"}}/>
+            <img src="/assets/zepiro3.png" alt="imagen de zepiro.netlify.app" style={{maxWidth: "90%", border:"3px solid red", borderRadius:"1em"}}/>
             </div>
             <div className="col-md-6">
               <p style={{padding:"1em"}}>Descripcion: Trata de una aplicacion front React para mostrar contenido de un juego de rol.Combinando botones y mostrando informacion de los posibles personajes y contextos.</p>
