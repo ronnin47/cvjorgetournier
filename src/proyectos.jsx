@@ -40,7 +40,7 @@ export const Proyectos = () => {
                   </div>  
               </div>
               <div style={{margin:"1em"}}>
-              <a href="http://zepironokioku.onrender.com" target="_blank" >zepironokioku.onrender.com</a>
+              <a href="http://znk.onrender.com" target="_blank" >znk.onrender.com</a>
               </div>  
               <div style={{margin:"1em"}}>
                 <a href="https://github.com/ronnin47/newAppZnk.git" target="_blank">ir a proyecto en github</a>
