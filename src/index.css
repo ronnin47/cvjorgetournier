@@ -98,6 +98,8 @@ footer {
   padding: 1em;
   text-align: left;
 }
+
+
 .fondo{
 background: rgb(147,142,150);
 background: linear-gradient(90deg, rgba(147,142,150,1) 0%, rgba(29,253,94,0.9822303921568627) 33%, rgba(252,176,69,1) 100%);

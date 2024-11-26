@@ -14,7 +14,7 @@ export const Nava=()=> {
         <Navbar.Brand href="#home">Jorge A. Tournier - Full Stack Developer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" >
             <Nav.Link href="#"></Nav.Link>
             <Nav.Link href="#tecnologias">Tecnologias</Nav.Link>
             <Nav.Link href="#proyectos">Proyectos</Nav.Link>
@@ -25,4 +25,6 @@ export const Nava=()=> {
     </Navbar>
   );
 }
+
+
 
