@@ -3,7 +3,7 @@
 export const Iconos = () => {
   return (
     <>
-    <div className="container" style={{margin:"1em",display:"flex", justifyContent:"center"}} id="tecnologias">
+    <div className="container" style={{display:"flex", justifyContent:"center"}} id="tecnologias">
       <div className="iconosFront" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1em" }}>
         <div style={{ width: "3em"}}>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />

@@ -14,6 +14,8 @@ export const Info = () => {
    link.click();
   }
 
+  const miLinkedin="https://www.linkedin.com/in/jorge-a-tournier/"
+
   return (
     <div style={{margin:"1em"}}>
          <div className="container tecnologias" id="info">
@@ -24,7 +26,17 @@ export const Info = () => {
           <p>Telefono: +5491141997524</p>
           <p>Direccion: Av Peron 3843 San Martin Caba</p>
           <p>E-mail: tempesttempest66@gmail.com</p>
-          <div>
+         
+        
+          
+          <a href="https://www.linkedin.com/in/jorge-a-tournier/" target="_blank" rel="noopener noreferrer">
+            {miLinkedin}
+          </a>
+  
+
+
+
+          <div style={{marginTop:"1em"}}>
           <button className="btn btn-primary" onClick={desacrgarCv}>Descargar mi cv</button>
          </div>
          </div>
